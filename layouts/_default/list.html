@@ -1,0 +1,159 @@
+{{ define "main" }}
+    {{ if and (eq .Kind "section") .Content }}
+        {{ partial "pages/post.html" . }}
+    {{ else }}
+        <main class="main list" id="main">
+            <div class="main-inner">
+                <div class="content list-group">
+                    {{ if .Site.Params.displayListTitle }}
+                        {{ if (eq .Kind "section") }}
+                            <h1 class="list-title" style="margin-top:0;margin-bottom:27px;">{{ .Title | default (delimit (last 1 (split (strings.TrimSuffix "/_index.md" .Path) "/")) " ") }}</h1>
+                            {{if (eq .Section "useless")}}
+                            <div class="useless_cn">
+                                <center><span style="font-size:1.2em;font-weight:500;color:gray;">
+                                当时明月在
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                曾照彩云归
+                                </span></center>
+                            </div>
+                            <div class="useless_en">
+                                <center><span style="font-size:1.2em;font-weight:500;color:gray;font-family:'EB Garamond','Amstelvar', serif;">
+                                No such thing as a life is better than yours. No such thing.
+                                </span></center>
+                            </div>      
+                            {{end}}
+                            {{if (eq .Section "useful")}}
+                            <div class="useful_cn">
+                                <center><span style="font-size:1.2em;font-weight:500;color:gray;">
+                                科技改变世界 
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                技术解放生活
+                                </span></center>
+                            </div>
+                            <div class="useful_en">
+                                <center><span style="font-size:1.2em;font-weight:500;color:gray;font-family:'EB Garamond','Amstelvar', serif;">
+                                Free me. 
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                                Free the world.
+                                </span></center>
+                            </div>
+                            {{end}}
+                        {{ end }}
+                        {{ if (eq .Kind "term") }}
+                            <h1 class="list-title" >{{ .Title | default .Data.Term | default (delimit (last 1 (split (strings.TrimSuffix "/_index.md" .Path) "/")) " ") }}</h1>
+                        {{ end }}
+                    {{ end }}
+
+                    {{ .Scratch.Delete "pages" }}
+
+                    <!-- Section -->
+                    {{ if (eq .Kind "section") }}
+                        <!-- Archives -->
+                        {{ if (eq .Section "archives") }}
+                            {{ $pages := (where .Site.RegularPages "Section" "in" .Site.Params.mainSections) }}
+                            {{ .Scratch.Set "pages" $pages }}
+                        <!-- Regular Section -->
+                        {{ else }}
+                            {{ $sectionPage := .CurrentSection }}
+                            {{ range .Site.RegularPages }}
+                                {{ if (.IsDescendant $sectionPage) }}
+                                    {{ $.Scratch.Add "pages" (slice .) }}
+                                {{ end }}
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}
+
+                    <!-- Taxonomy (See `taxonomy` folder) -->
+
+                    <!-- Taxonomy Term -->
+                    {{ if (eq .Kind "term") }}
+                        {{ $pages := .Pages }}
+                        {{ $.Scratch.Set "pages" $pages }}
+                    {{ end }}
+
+                    <!-- Start List -->
+                    {{ $pages := .Scratch.Get "pages" }}
+                    {{ range $pages.GroupByDate "2006" }}
+                        {{ $.Scratch.Delete "zodiacName" }}
+                        {{ if $.Site.Params.chineseZodiac }}
+                            {{ $zodiacName := (index $.Site.Data.ChineseZodiac (string (mod .Key 12))) }}
+                            {{ $.Scratch.Set "zodiacName" $zodiacName }}
+                        {{ end }}
+                        {{ $zodiacName := $.Scratch.Get "zodiacName" }}
+                        {{ $.Scratch.Delete "year" }}
+                        {{ if $.Site.Params.i18nYear }}
+                            {{ $key := .Key }}
+                            {{ $.Scratch.Delete "num" }}
+                            {{ range (slice 1 2 3 4) }}
+                                {{ $.Scratch.Add "num" (slice (substr $key (sub . 1) 1)) }}
+                            {{ end }}
+                            {{ $num := $.Scratch.Get "num" }}
+                            {{ $.Scratch.Delete "i18nNum" }}
+                            {{ range $num }}
+                                {{ $.Scratch.Add "i18nNum" (i18n .) }}
+                            {{ end }}
+                            {{ $i18nNum := $.Scratch.Get "i18nNum" }}
+                            {{ $.Scratch.Set "year" $i18nNum }}
+                        {{ else }}
+                            {{ $.Scratch.Set "year" .Key }}
+                        {{ end }}
+                        {{ $year := $.Scratch.Get "year" }}
+                        <h2 class="list-year">{{ $year }}{{ if $.Site.Params.chineseZodiac }}{{ partial "utils/icon.html" (dict "$" $ "name" $zodiacName "class" "chinese-zodiac") }}{{ end }}</h2>
+                        {{ if $.Site.Params.groupByMonth }}
+                            {{ range .Pages.GroupByDate "January" }}
+                                {{ $.Scratch.Delete "month" }}
+                                {{ if $.Site.Params.i18nMonth }}
+                                    {{ $month := i18n (lower .Key) }}
+                                    {{ $.Scratch.Set "month" $month }}
+                                {{ else }}
+                                    {{ $.Scratch.Set "month" .Key }}
+                                {{ end }}
+                                {{ $month := $.Scratch.Get "month" }}
+                                <h3 class="list-month">{{ $month }}</h3>
+                                {{ partial "utils/list-item.html" (dict "$" .) }}
+                            {{ end }}
+                        {{ else }}
+                            {{ partial "utils/list-item.html" (dict "$" .) }}
+                        {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+        </main>
+
+<script>
+
+let lang = document.documentElement.lang
+
+let useless_cn = document.querySelector('.useless_cn')
+let useful_cn = document.querySelector('.useful_cn')
+let useless_en = document.querySelector('.useless_en')
+let useful_en = document.querySelector('.useful_en')
+
+if (lang !== 'zh-CN') {
+    if(useful_cn) useful_cn.remove() 
+    if(useless_cn) useless_cn.remove()
+}
+
+if (lang !== 'en-US') {
+    if(useful_en) useful_en.remove() 
+    if(useless_en) useless_en.remove()
+}
+
+</script>
+
+<style type="text/css">
+    .list-item-title{
+        font-family:'EB Garamond','Noto Serif SC', serif;
+    }
+    .list-item-time{
+        font-family:'EB Garamond','Noto Serif SC', serif;
+    }
+</style>
+
+    {{ end }}
+{{ end }}
+
+
+
+
