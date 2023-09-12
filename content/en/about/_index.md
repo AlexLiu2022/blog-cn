@@ -4,23 +4,28 @@ date: 2022-09-22T12:22:22+08:00
 anchor: false
 ---
 
-**This website is a personal blog.  It's my world & has my work.**
+<center><span style="font-size:28px">This site is a personal blog.   <br><br>It's my world & has my work</span></center>
+
+<br>
 
 Although "someone" is indeed a **literal big foodie**, it's still kind of funny that his Chinese name is the homophone of  "<u>Eating</u>"[^1] --- the continuous tense of "eat".  <span style="white-space: nowrap;">(｡ì _ í｡)</span>
  
 
 However, as a man who won the title of "**Eating Good Baby**" back in the kindergarten, he reluctantly accepted this setting ~
 
-##### Sections ( <u>Notes & Files are both independent websites </u> )
+##### Sections 
+
+<center ><u><span style="font-size:24px">( Notes & Files & GPT are independent websites )</span></u></center>
 
 - Public : workflows, notes, tech blogs, investment related 
 - Self : All kinds of fragments / serious || pretentious articles
-	- please read [About Readers](https://eating.work/en/useless/about-readers/)
-- Tags: tag cloud for classification & retrieval( for being cool in fact
+	- please read [About Readers](https://liu.xyz/useless/about-readers/)
 - Notes : The knowledge network formed by the notes taken on <a href="https://obsidian.md/" target="_blank">Obsidian</a>, published through the plug-in <a href="https://github.com/oleeskild/obsidian-digital-garden" target="_blank">Digital Garden</a>
-- Files: A list of files built using <a href="https://alist.nn.ci/" target="_blank">Alist</a>
+- Files : A list of files built using <a href="https://alist.nn.ci/" target="_blank">Alist</a>
 	- Integrate storages of cloud server and other netdisks
 	- Personal file management || Share
+- GPT : Mirror for private & friends' use
+- Tags : tag cloud for classification & retrieval( for being cool in fact
 <br>
 
 ##### Some Tips
@@ -31,6 +36,7 @@ Switch from EN to CN in the menu bar to view Chinese content (content is differe
 - Pages that exist in Chinese  will be redirected to the Chinese version
 - Others will be redirected to the Chinese version's homepage
 
+Default language of this site is Chinese. The English first parallel site is <a href="https://liu.xyz" target="_blank">here</a>.
 
 ##### Declaration
 
@@ -49,9 +55,17 @@ h1{
   margin: 0 !important;
 }
 .post-body {
-margin-top: 2.7em !important;
+margin-top: 1em !important;
 }
 #main {
 	padding-top: 88px;
 }
+#sections{
+margin-bottom :10px !important;
+}
 </style>
+
+<script>
+let title = document.querySelector('h1.post-title.p-name');
+title.remove();
+</script>

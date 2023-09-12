@@ -98,7 +98,7 @@ uglyURLs = false
     # 名字
     name = "Alex Liu"
     # 邮箱
-    email = "rethemail@qq.com"
+    email = "alex@liu.xyz"
     # 座右铭或简介
     motto = "认真生活"
     # 头像
@@ -197,70 +197,68 @@ uglyURLs = false
         pre = "internal"
         post = "user-circle"
         identifier = "about"
-
     [[menu.main]]
         pageref = "/useful/"
         name = "工作"
         weight = 2
         pre = "internal"
         post = "wpexplorer"
-
     [[menu.main]]
         pageref = "/useless/"
         name = "个人"
         weight = 3
         pre = "internal"
-        post = "grav"          
-
-    [[menu.main]]
-        weight = 4
-        identifier = "lang-switcher"
-
-    [[menu.main]]
-        pageref = "/tags/"
-        weight = 5
-        pre = "internal"
-        post = "tags"
-  
-    [[menu.main]]
-        weight = 6
-        identifier = "theme-switcher"   
-
-    [[menu.main]]
-        name = "||"
-        weight = 7
-        url ="#"   
-
-    [[menu.main]]
-        url = "https://notes.eating.work"
+        post = "grav"        
+   [[menu.main]]
+        url = "https://notes.liu.xyz"
         name = "笔记"
-        weight = 8
+        weight = 4
         pre = "external"
         post = "pencil-alt"  
-        
     [[menu.main]]
         url = "https://files.freezing.cool"
         name = "网盘"
-        weight = 9
+        weight = 5
         pre = "external"
-        post = "folder"   
+        post = "folder" 
+    [[menu.main]]
+        name = "GPT"
+        weight = 6
+        pre = "external"
+        url ="https://chat.liu.xyz"
+        post = "chat"
+    [[menu.main]]
+        pageref = "/tags/"
+        weight = 7
+        pre = "internal"
+        post = "tags"
+    [[menu.main]]
+        weight = 8
+        identifier = "lang-switcher"
+    [[menu.main]]
+        weight = 9
+        identifier = "theme-switcher"
 
     ## 社交栏
     [[menu.socials]]
-        url = "mailto:rethemail@qq.com"
-        name = "Email"
+        url = "mailto:alex@liu.xyz"
+        name = " mail"
         weight = 1
         pre = "external"
+        post = "envelope"
     [[menu.socials]]
         url = "https://twitter.com/AlexLiuWeb3"
-        name = "X"
+        name = " X"
         weight = 2
-        pre = "external"        
+        pre = "external"
+        post = "twitter"   
     [[menu.socials]]
         url = "https://t.me/blueplane_alex"
-        name = "Telegram"
+        name = " telegram"
         weight = 3
         pre = "external"        
+        post = "telegram"
+
 
     ## 链接栏
     [[menu.links]]
@@ -304,7 +302,7 @@ uglyURLs = false
     # 在窄视图下隐藏菜单栏并显示一个按钮？
     enableNavToggle = true
 
-    navHeight = "12.2em"
+    navHeight = "13.45em"
     # 说明：菜单栏展开时的高度
 
 
@@ -1501,50 +1499,55 @@ uglyURLs = false
         weight = 3
         pre = "internal"
         post = "grav"        
-    [[languages.en.menu.main]]
-        weight = 4
-        identifier = "lang-switcher"
-    [[languages.en.menu.main]]
-        pageref = "/tags/"
-        weight = 5
-        pre = "internal"
-        post = "tags"
-    [[languages.en.menu.main]]
-        weight = 6
-        identifier = "theme-switcher"      
-    [[languages.en.menu.main]]
-        name = "||"
-        weight = 7
-        url ="#"
    [[languages.en.menu.main]]
-        url = "https://notes.eating.work"
+        url = "https://notes.liu.xyz"
         name = "Notes"
-        weight = 8
+        weight = 4
         pre = "external"
         post = "pencil-alt"  
     [[languages.en.menu.main]]
         url = "https://files.freezing.cool"
         name = "Files"
-        weight = 9
+        weight = 5
         pre = "external"
         post = "folder" 
+    [[languages.en.menu.main]]
+        name = "GPT"
+        weight = 6
+        pre = "external"
+        url ="https://chat.liu.xyz"
+        post = "chat"
+    [[languages.en.menu.main]]
+        pageref = "/tags/"
+        weight = 7
+        pre = "internal"
+        post = "tags"
+    [[languages.en.menu.main]]
+        weight = 8
+        identifier = "lang-switcher"
+    [[languages.en.menu.main]]
+        weight = 9
+        identifier = "theme-switcher"      
 
     ## 社交栏
     [[languages.en.menu.socials]]
-        url = "mailto:rethemail@qq.com"
-        name = "Email"
+        url = "mailto:alex@liu.xyz"
+        name = " mail"
         weight = 1
         pre = "external"
+        post = "envelope"
     [[languages.en.menu.socials]]
         url = "https://twitter.com/AlexLiuWeb3"
-        name = "X"
+        name = " X"
         weight = 2
-        pre = "external"        
+        pre = "external"
+        post = "twitter"   
     [[languages.en.menu.socials]]
         url = "https://t.me/blueplane_alex"
-        name = "Telegram"
+        name = " telegram"
         weight = 3
         pre = "external"        
+        post = "telegram"
 
     ## 链接栏
     [[languages.en.menu.links]]
