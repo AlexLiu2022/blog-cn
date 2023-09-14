@@ -12,7 +12,7 @@ tocNum: false
 
 我们的文章（笔记、论文、博客等）中常需要添加图片。以使用常见的**Markdown**编辑器 **Typora** 记笔记的场景为例，如果我们直接将图片复制粘贴至其中，会得到如下的效果：
 
-![](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-001-changed.jpeg)
+![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-001-changed.jpeg)
 
 
 
@@ -25,7 +25,7 @@ tocNum: false
 使用图床，图片地址将如下，以存储在互联网上的**绝对路径**的形式存在
 
 ```url
-https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-001-changed.jpeg
+https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-001-changed.jpeg
 ```
 
 这样文章中只存储图片在服务器上的链接**文本** 内容迁移、版本管理变得容易
@@ -66,7 +66,7 @@ https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-001
     - --> `Generate token` --> 记下生成的`token`
 
 >相关操作对应的github界面
-![](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-002.png)
+![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-002.png)
 
 
 3. 下载 **<a href="https://picgo.github.io/PicGo-Doc/zh/" target="_blank">PicGo</a>** 打开 **图床设置** 页面：
@@ -75,10 +75,10 @@ https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-001
     3. 设定分支名为 `main`(或`master`)
     4. 设置token为上一步生成的token
     5. 指定存储路径 如`img/`
-    6. 设定自定义域名 `https://gcore.jsdelivr.net/gh/username/repo_name`
+    6. 设定自定义域名 `https://cdn.jsdelivr.net/gh/username/repo_name`
 
 >图床设置页面
-![](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-003.png)
+![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-003.png)
 
 
 4. 启用自动上传服务
@@ -86,33 +86,33 @@ https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-001
     在自己使用的编辑器中配置自动上传服务 如 **Typora** 在设置项 image --> Image Upload Setting中, 设置Image Uploader 为 **PicGo**, 此外强烈推荐使用<a href="https://obsidian.md/" target="_blank">Obsidian</a>编辑器，可配合插件使用以获得最佳体验，其他编辑器配置请自行<a href="https://google.com" target="_blank">搜索</a>
     
 >obsidiain Image auto upload Plugin界面
-![](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-004.png)
+![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-004.png)
 
 
 5. 完成 测试效果 尽情使用自己的图床吧～
 
 >在Typora配置好了图床后再粘贴图片出现Upload Image选项，点击即可
-![](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-005.png)
+![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-005.png)
 
 
 我们既能在自己的GitHub仓库中找到这些图片，
 
 >被上传到GitHub仓库的图片（注意！<mark>直接加载GitHub中的图片需要科学上网</mark>，这也是我们选择自定义链接CDN的原因）
-![](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-006.png)
+![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-006.png)
 
 还能通过命令`git pull`将它们拉取到本地存储，确保自己的数据安全。
 
 >终端中输入命令拉取图片到本地
-![](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-007.png)
+![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-007.png)
 
 >存储在本地的图片文件
-![](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-008.png)
+![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-008.png)
 
 下图是示例中上传到图床的图片:
 
-![](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/Ophelia.JPG)
+![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/Ophelia.JPG)
 
 它在博客中的源代码是
 ```
-![](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/Ophelia.JPG)
+![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/Ophelia.JPG)
 ```

@@ -5,7 +5,7 @@ tags: ["情绪","人格"]
 ---
 
 
-<img style = "margin-top : 0; margin-bottom :44px" src = "https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/nothing.jpeg"/>
+<img style = "margin-top : 0; margin-bottom :44px" src = "https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/nothing.jpeg"/>
 
 
 

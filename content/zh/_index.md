@@ -2,7 +2,7 @@
 description: "Alex Liu's Blog"
 ---
 
-![](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/sky-with-clouds.jpeg)
+![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/sky-with-clouds.jpeg)
 
 <style>
 #main {

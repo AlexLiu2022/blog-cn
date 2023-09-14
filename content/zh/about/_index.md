@@ -35,7 +35,7 @@ anchor: false
 
 欢迎关注我的<a href="https://github.com/AlexLiu2022" target="_blank">GitHub</a> **祝万事胜意 !**
 
-![](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/cloud.jpg)
+![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/cloud.jpg)
 [^1]: 网站名 & 域名[^3]的由来 足够无聊
 [^2]: 其实是用来装逼的（误
 [^3]: 博客强调work是为了迎合域名后缀 而用这个后缀是因为便宜（迫真

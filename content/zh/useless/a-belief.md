@@ -14,7 +14,7 @@ tags: ["热忱","技术"]
 
 ---
 
->![](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/eth-pos-activated.JPG)以太坊的共识机制成功由工作量证明转向权益证明
+>![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/eth-pos-activated.JPG)以太坊的共识机制成功由工作量证明转向权益证明
 
 ---
 

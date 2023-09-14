@@ -8,7 +8,7 @@ tags: ["self-indentification"]
 <center style = "font-size: 1.5em">
 No such thing as a life is better than yours. 
 
-<img style = "margin-top : 30px; margin-bottom :30px" src = "https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/light-bule-vibe.jpeg" />
+<img style = "margin-top : 30px; margin-bottom :30px" src = "https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/light-bule-vibe.jpeg" />
 
 <div class = "line">
 	No &nbsp;&nbsp;&nbsp; such &nbsp;&nbsp;&nbsp; thing.

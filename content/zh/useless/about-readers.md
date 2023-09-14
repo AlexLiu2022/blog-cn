@@ -6,7 +6,7 @@ tags: ["博客","说明"]
 
 &nbsp;&nbsp;这个博客个人分区中的所有文章都是写给自己看的。但既然选择了让它们以网站的形式呈现，而不是静静地躺在本地文件夹中，它们就可能会拥有读者。
 
-<img style = "margin-top : 20px ;margin-bottom: 44px;" src = "https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/a-website-on-the-internet.jpg" />
+<img style = "margin-top : 20px ;margin-bottom: 44px;" src = "https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/a-website-on-the-internet.jpg" />
 
 &nbsp;&nbsp;是在写上篇文章时被闪现的想法触发而开始思考“关于读者”的——或许这也是促使我将其修改得更易被理解的原因之一。很多事我不会开口和别人谈起，但却有着超越“自说自话”的表达欲，写在这里算是一种折衷。
 
@@ -23,14 +23,14 @@ tags: ["博客","说明"]
 
 &nbsp;&nbsp;设想上的难堪并不妨碍我对这个博客的一切充满热情。它的存在对我而言是某种形式的美（而我确实在外观上花费了不少心力），我为拥有着这样一个空间而感到持续的兴奋。
 
-![](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/oxygen-not-included.png)
+![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/oxygen-not-included.png)
 
 
 &nbsp;&nbsp;但它也让我怀着忐忑的心情对读者的想法在意着。渴望理解，也害怕误解。
 
 &nbsp;&nbsp;毕竟是有除自己外读者的文字，或多或少有所保留。但活在这些文字中的我，会比他人认知中的更真实。所以不妨把这一切解释为一种尝试吧，在用无需直面的读者缓解真切孤独的过程中， 距离虽依旧远，亦增添了摆脱的可能 。
 
-![](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/night-sky.jpg)
+![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/night-sky.jpg)
 
 
  

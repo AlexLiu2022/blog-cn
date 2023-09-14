@@ -31,7 +31,7 @@ tags: ["换个画风","非正式发言","让我懂完了"]
 Play it the hard way. 虽然只关于个人，但却带着该死的史诗[^3]感。
 
 ---
-![diagram-of-blog-life-simulator-operations-guide.JPG](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/diagram-of-blog-life-simulator-operations-guide.JPG)
+![diagram-of-blog-life-simulator-operations-guide.JPG](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/diagram-of-blog-life-simulator-operations-guide.JPG)
 
 ---
 

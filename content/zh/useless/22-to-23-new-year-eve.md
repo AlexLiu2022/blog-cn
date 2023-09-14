@@ -14,7 +14,7 @@ tags: ["节日","仪式感","自省","新年决心","和标签一样啰嗦又矫
 
 >22-12-22，也是冬至 
 
-![](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/IOS-calendars.jpg)
+![](https://cdnsdelivr.net/gh/AlexLiu2022/resources/img/IOS-calendars.jpg)
 
 &nbsp;&nbsp;我有着例如18:16选好外卖，一定会**等**到18:18再下单的数字敏感型强迫症。类似22-2-22:22的时刻显然也**曾被我**赋予特殊意义。
 
@@ -40,7 +40,7 @@ tags: ["节日","仪式感","自省","新年决心","和标签一样啰嗦又矫
 
 >12.7 立冬所写日记
 
-![](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/diary-on-22-12-7.png)
+![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/diary-on-22-12-7.png)
 
 
 ---
@@ -66,7 +66,7 @@ tags: ["节日","仪式感","自省","新年决心","和标签一样啰嗦又矫
 
 &nbsp;&nbsp;人活着，总是需要一点仪式感的。我对我的不能免俗不置可否，也还是提笔写下了这些。我依旧对自己对自己的诚实自我欣赏，还是那热爱自夸的酒，但不再物色新瓶子了，只想在岁月中沉香。提到酒，写这篇的时候还是在喝青葡萄味真露。很好喝。原味真的难以下咽，草莓太甜，西柚还行。
 
-![](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/jinro.jpeg)
+![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/jinro.jpeg)
 
 
 &nbsp;&nbsp;于是这篇啰嗦而矫情的长篇大论便写完了。写给自己的仪式感，不过希望这是最后一次，算是新年决心吧。不知来年回顾会怎么想，最好不是此刻我预想的那样，这该死的悲观。
@@ -78,4 +78,4 @@ tags: ["节日","仪式感","自省","新年决心","和标签一样啰嗦又矫
 </span></strong></center>
 
 
-![](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/fireworks.JPG)
+![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/fireworks.JPG)

@@ -19,7 +19,7 @@ tags: ["情绪","关系","节日"]
 
 <br>
 
-![](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/moon-night.jpg)
+![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/moon-night.jpg)
 
 <hr><br>
 <center><strong><i>

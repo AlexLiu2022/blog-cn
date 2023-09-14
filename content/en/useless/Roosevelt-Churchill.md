@@ -4,7 +4,7 @@ date: 2023-08-11T23:55:00+08:00
 tags: ['target','original-intention','enthusiasm','self-indentification ','historical-figure','grand-narrative']
 ---
 
->![darkest-hour-churchill.jpg](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/darkest-hour-churchill.jpg)Churchill after the speech[^1],  still of the film ***Darkest Hour***
+>![darkest-hour-churchill.jpg](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/darkest-hour-churchill.jpg)Churchill after the speech[^1],  still of the film ***Darkest Hour***
 
 ---
 
@@ -12,7 +12,7 @@ tags: ['target','original-intention','enthusiasm','self-indentification ','histo
 
 ---
 
->![FDR_First_Inaugural_Address.jpg](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/FDR_first_inaugural_address.jpg)
+>![FDR_First_Inaugural_Address.jpg](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/FDR_first_inaugural_address.jpg)
 ><center>FDR First Inaugural Address</center>
 
 **"The only thing we have to fear, is fear itself."**  - Franklin Delano Roosevelt 

@@ -13,7 +13,7 @@ tocNum: false
 
 We often need to add images to our articles (notes, essays, blogs, etc.). Taking the common **Markdown** editor **Typora** note-taking scenario as an example, if we copy and paste the image directly into it, we will get the following result:
 
-![](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-001-changed.jpeg)
+![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-001-changed.jpeg)
 
 You can see that the link representing the image is its local relative path, which leads to the following disadvantages:
 
@@ -24,7 +24,7 @@ You can see that the link representing the image is its local relative path, whi
 With a Pic-Bed, the image link will be as follows, in the form of an absolute path stored on the Internet
 
 ```url
-https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-001-changed.jpeg
+https://cdngh/AlexLiu2022/resources/img/blog-pic-bed-example-001-changed.jpeg
 ```
 
 This makes it easy to store only the link of the image on the server in the articles. Content migration and version management become easy
@@ -65,7 +65,7 @@ The advantages of this set of solutions are: **completely free**, fast speed, ea
     - --> `Generate token` --> Make a note of the generated `token`
 
 > GitHub interface corresponding to the relevant operation
-![](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-002.png)
+![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-002.png)
 
 3. Download **<a href="https://picgo.github.io/PicGo-Doc/en/" target="_blank">PicGo</a>** and open **Pic-Bed Settings** page:
     1. Open the GitHub Pic-Bed page, set as **Default Pic-Bed**
@@ -73,43 +73,43 @@ The advantages of this set of solutions are: **completely free**, fast speed, ea
     3. Set the branch name to `main` (or `master`)
     4. Set the token to the token generated in the previous step
     5. Specify the storage path e.g. `img/`
-    6. Set a custom domain `https://gcore.jsdelivr.net/gh/username/repo_name`
+    6. Set a custom domain `https://cdn.jsdelivr.net/gh/username/repo_name`
 
 > the Pic-Bed Settings page
-![](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-003.png)
+![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-003.png)
 
 4. Enable the automatic upload service
 
 Configure automatic upload service in your own editor such as **Typora** In the settings page, image --> Image Upload Setting, set Image Uploader to **PicGo**, in addition, it is highly recommended to use the <a href="https://obsidian.md/" target="_blank">Obsidian</a> editor, which can be used with plugins for the best experience. Please <a href="https://google.com" target="_blank">search</a> for other editors' configurations yourself.
     
 > obsidiain Image auto upload plugin interface
-![](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-004.png)
+![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-004.png)
 
 5. Complete, have a test and enjoy using your own picture bed~
 
 > after configuring pic-bed in Typora, paste a image to it and it will appear a Upload Image option, click it
-![](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-005.png)
+![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-005.png)
 
 We can find these images in our own GitHub repository,
 
 > image uploaded to the GitHub repository (attention!) <mark>Loading images directly in GitHub requires VPN if you are in China</mark>, and that's why we use custom links to use CDN service)
-![](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-006.png)
+![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-006.png)
 
 You can also pull them to local storage with the command `git pull` to ensure your own data security.
 
 Enter commands in terminal to pull the images to local computer
-![](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-007.png)
+![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-007.png)
 
 > image files that are stored locally
-![](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-008.png)
+![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-pic-bed-example-008.png)
 
 The following image is the image uploaded to the picture bed in the example:
 
-![](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/Ophelia.JPG)
+![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/Ophelia.JPG)
 
 Its source code in the blog is:
 ```
-![](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/Ophelia.JPG)
+![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/Ophelia.JPG)
 ```
 
 <style>

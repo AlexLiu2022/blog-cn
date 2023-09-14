@@ -17,7 +17,7 @@ tags: ["现实主义"]
 
 ---
 
-![](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/string-moon.JPG)
+![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/string-moon.JPG)
 
 ---
 

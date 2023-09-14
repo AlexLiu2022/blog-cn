@@ -7,7 +7,7 @@ badge: true
 
 随着美联储在凌晨意料之中的加息25个基点 这轮加息周期很可能已进入了尾声
 
->![fed-chair-powell.png](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/fed-chair-powell.png)
+>![fed-chair-powell.png](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/fed-chair-powell.png)
 >现任美联储主席 Jerome Powell
 
 

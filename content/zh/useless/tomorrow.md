@@ -12,7 +12,7 @@ tags: ["自我认同","人格"]
 是此刻唯一的光
 </strong></i></center>
 
-![](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/window-light-in-the-night.png)
+![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/window-light-in-the-night.png)
 
 <center><strong><i>
 也许有一天<br><br>

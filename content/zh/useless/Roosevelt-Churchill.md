@@ -4,7 +4,7 @@ date: 2023-08-11T23:55:00+08:00
 tags: ['初心','热忱','目标','自我认同','历史人物','宏大叙事']
 ---
 
->![darkest-hour-churchill.jpg](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/darkest-hour-churchill.jpg)演讲[^1]结束后独自离场的丘吉尔  &nbsp; &nbsp; &nbsp; &nbsp; 电影《至暗时刻》剧照
+>![darkest-hour-churchill.jpg](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/darkest-hour-churchill.jpg)演讲[^1]结束后独自离场的丘吉尔  &nbsp; &nbsp; &nbsp; &nbsp; 电影《至暗时刻》剧照
 
 ---
 
@@ -14,7 +14,7 @@ tags: ['初心','热忱','目标','自我认同','历史人物','宏大叙事']
 
 ---
 
->![FDR_First_Inaugural_Address.jpg](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/FDR_first_inaugural_address.jpg)
+>![FDR_First_Inaugural_Address.jpg](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/FDR_first_inaugural_address.jpg)
 ><center>在其第一任总统就职仪式上的罗斯福</center>
 
 **"The only thing we have to fear, is fear itself."**  - Franklin Delano Roosevelt 

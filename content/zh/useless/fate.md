@@ -17,7 +17,7 @@ tags: ["关系","自我认同"]
 
 ---
 
-![](https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/sunset-sense.png)
+![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/sunset-sense.png)
 
 ---
 

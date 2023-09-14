@@ -10,7 +10,7 @@ tags: ["她","影视","韩剧","现实主义"]
 再去寻找可以拔出那把剑的女孩吧
 </center>
 
-<img style = "margin-top : 33px;margin-bottom: 50px;" src = "https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-picture-i-can-see-your-sword.JPG" />
+<img style = "margin-top : 33px;margin-bottom: 50px;" src = "https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/blog-picture-i-can-see-your-sword.JPG" />
 
 ---
 
