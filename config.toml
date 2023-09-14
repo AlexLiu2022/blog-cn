@@ -216,7 +216,7 @@ uglyURLs = false
         pre = "external"
         post = "pencil-alt"  
     [[menu.main]]
-        url = "https://files.freezing.cool"
+        url = "https://files.liu.xyz"
         name = "网盘"
         weight = 5
         pre = "external"
@@ -1506,7 +1506,7 @@ uglyURLs = false
         pre = "external"
         post = "pencil-alt"  
     [[languages.en.menu.main]]
-        url = "https://files.freezing.cool"
+        url = "https://files.liu.xyz"
         name = "Files"
         weight = 5
         pre = "external"
