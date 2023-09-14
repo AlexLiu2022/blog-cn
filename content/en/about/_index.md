@@ -19,7 +19,7 @@ However, as a man who won the title of "**Eating Good Baby**" back in the kinder
 
 - Public : workflows, notes, tech blogs, investment related 
 - Self : All kinds of fragments / serious || pretentious articles
-	- please read [About Readers](https://liu.xyz/useless/about-readers/)
+	- please read [About Readers](https://eating.work/en/useless/about-readers/)
 - Notes : The knowledge network formed by the notes taken on <a href="https://obsidian.md/" target="_blank">Obsidian</a>, published through the plug-in <a href="https://github.com/oleeskild/obsidian-digital-garden" target="_blank">Digital Garden</a>
 - Files : A list of files built using <a href="https://alist.nn.ci/" target="_blank">Alist</a>
 	- Integrate storages of cloud server and other netdisks
@@ -36,7 +36,7 @@ Switch from EN to CN in the menu bar to view Chinese content (content is differe
 - Pages that exist in Chinese  will be redirected to the Chinese version
 - Others will be redirected to the Chinese version's homepage
 
-Default language of this site is Chinese. The English first parallel site is <a href="https://liu.xyz" target="_blank">here</a>.
+Default language of this site is Chinese. The English first parallel site is <a href="https://alex.liu.xyz" target="_blank">here</a>.
 
 ##### Declaration
 

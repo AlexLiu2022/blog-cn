@@ -13,7 +13,7 @@ anchor: false
 ##### 分区 <center ><span style="font-size:20px"><u>(笔记 & 网盘 & GPT 是独立网站)</u><span></center>
 - 工作 ：工作流、笔记、技术博客、投资相关
 - 个人 ：各种碎碎念(中二 || 严肃) 
-	- 请阅读 [关于读者](https://liu.xyz/zh/useless/about-readers)
+	- 请阅读 [关于读者](https://eating.work/useless/about-readers)
 - 笔记 ：<a href="https://obsidian.md/" target="_blank">Obsidian</a>上笔记形成的知识网络 通过插件<a href="https://github.com/oleeskild/obsidian-digital-garden" target="_blank">Digital Garden</a> 发布
 - 网盘 ：使用<a href="https://alist.nn.ci/" target="_blank">Alist</a>搭建的文件列表 
 	- 整合云服务器及各个网盘
@@ -28,7 +28,7 @@ anchor: false
 - 存在英文版的页面会跳转至英文版
 - 不存在的页面将跳转到英文版主页
 
-本站默认语言为中文 默认语言为英文的平行站在<a href="https://liu.xyz" target="_blank">这里</a>
+本站默认语言为中文 默认语言为英文的平行站在<a href="https://alex.liu.xyz" target="_blank">这里</a>
 
 ##### 声明
 **本博客一切内容均为个人观点** 相关资源若有版权问题请联系我删除 <br>
