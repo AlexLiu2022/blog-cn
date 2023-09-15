@@ -15,7 +15,7 @@ theme = "meme"
 newContentEditor = ""
 
 # i18n
-defaultContentLanguage = "zh"
+defaultContentLanguage = "cn"
 defaultContentLanguageInSubdir = false
 
 # 是否复数化列表页面的标题
@@ -153,8 +153,8 @@ uglyURLs = false
 # Hugo 的输出控制
 [outputs]
     page = ["HTML"]
-    # home = ["HTML", "SectionsAtom", "SectionsRSS", "SearchIndex", "Algolia"]
-    home = ["HTML", "SectionsAtom", "SectionsRSS"]
+    # home = ["HTML", "SectionsAtom", "SearchIndex", "Algolia"]
+    home = ["HTML", "SectionsAtom"]
     section = ["HTML"]
     taxonomy = ["HTML"]
     term = ["HTML"]
@@ -263,19 +263,28 @@ uglyURLs = false
     ## 链接栏
     [[menu.links]]
         url = "/"
-        name = "Home"
+        name = " Home"
         weight = 1
         pre = "internal"
+        post = "home"
     [[menu.links]]
         url = "/tags/"
-        name = "Tags"
+        name = " Tags"
         weight = 2
         pre = "internal"
+        post = "tags"
     [[menu.links]]
         url = "https://liu.xyz"
-        name = "Links"
+        name = " Links"
         weight = 3
-        pre = "external"        
+        pre = "external"
+        post = "link"
+    [[menu.links]]
+        url = "https://eating.work/atom.xml"
+        name = " RSS"
+        weight = 4
+        pre = "external"
+        Post = "rss"
 
 ##########################################
 # 主题配置
@@ -1282,7 +1291,7 @@ uglyURLs = false
     # 年份与作者之间的图标，留空（""）则无
     iconBetweenYearAndAuthor = "heart"
     # 图标颜色
-    iconColor = "15, 90%, 56%"
+    iconColor = "pink"
     # 是否开启图标的跳动效果
     iconAnimation = true
 
@@ -1466,9 +1475,9 @@ uglyURLs = false
     # 自行添加的多语言站点配置
 
     # 中文
-    [languages.zh]
+    [languages.cn]
         languageName = "CN"
-        contentDir = "content/zh"
+        contentDir = "content/cn"
         weight = 1
 
     # 英文
@@ -1556,19 +1565,28 @@ uglyURLs = false
     ## 链接栏
     [[languages.en.menu.links]]
         url = "/"
-        name = "Home"
+        name = " Home"
         weight = 1
         pre = "internal"
+        post = "home"
     [[languages.en.menu.links]]
         url = "/tags/"
-        name = "Tags"
+        name = " Tags"
         weight = 2
         pre = "internal"
+        post = "tags"
     [[languages.en.menu.links]]
         url = "https://liu.xyz"
-        name = "Links"
+        name = " Links"
         weight = 3
-        pre = "external"        
+        pre = "external"
+        post = "link"
+    [[languages.en.menu.links]]
+        url = "https://eating.work/en/atom.xml"
+        name = " RSS"
+        weight = 4
+        pre = "external"
+        Post = "rss"        
     
     [languages.en.params]
         homePoetry = []

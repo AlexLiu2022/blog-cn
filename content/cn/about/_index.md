@@ -11,7 +11,7 @@ anchor: false
 不过作为在幼儿园就获得“**进餐乖宝宝**”称号的男人,就勉强接受这个设定啦～
 
 ##### 分区 <center ><span style="font-size:20px"><u>(笔记 & 网盘 & GPT 是独立网站)</u><span></center>
-- 工作 ：工作流、笔记、技术博客、投资相关
+- 工作 ：技术博客、投资相关
 - 个人 ：各种碎碎念(中二 || 严肃) 
 	- 请阅读 [关于读者](https://eating.work/useless/about-readers)
 - 笔记 ：<a href="https://obsidian.md/" target="_blank">Obsidian</a>上笔记形成的知识网络 通过插件<a href="https://github.com/oleeskild/obsidian-digital-garden" target="_blank">Digital Garden</a> 发布
@@ -30,15 +30,23 @@ anchor: false
 
 本站默认语言为中文 默认语言为英文的平行站在<a href="https://alex.liu.xyz" target="_blank">这里</a>
 
+##### 订阅
+
+你可以用[^3]以下的链接免费订阅本站的RSS feed:
+```url
+https://eating.work/atom.xml
+```
+
 ##### 声明
 **本博客一切内容均为个人观点** 相关资源若有版权问题请联系我删除 <br>
 
 欢迎关注我的<a href="https://github.com/AlexLiu2022" target="_blank">GitHub</a> **祝万事胜意 !**
 
 ![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/cloud.jpg)
-[^1]: 网站名 & 域名[^3]的由来 足够无聊
+[^1]: 网站名 & 域名[^4]的由来 足够无聊
 [^2]: 其实是用来装逼的（误
-[^3]: 博客强调work是为了迎合域名后缀 而用这个后缀是因为便宜（迫真
+[^3]: 通常通过feedly或其他客户端
+[^4]: 博客强调work是为了迎合域名后缀 而用这个后缀是因为便宜（迫真
 
 <style>
 #main {
