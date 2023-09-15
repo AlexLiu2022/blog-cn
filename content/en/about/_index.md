@@ -56,7 +56,7 @@ Welcome to my <a href="https://github.com/AlexLiu2022" target="_blank">GitHub</a
 ![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/cloud.jpg)
 
 [^1]: The origin of the site's & domain's name, boring enough
-[^2]: Usually via feedly or other clients
+[^2]: Usually through online services such as feedly or clients such as reeder
 
 
 

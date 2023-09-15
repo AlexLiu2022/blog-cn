@@ -14,7 +14,7 @@ tags: ["节日","仪式感","自省","新年决心","和标签一样啰嗦又矫
 
 >22-12-22，也是冬至 
 
-![](https://cdnsdelivr.net/gh/AlexLiu2022/resources/img/IOS-calendars.jpg)
+![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/IOS-calendars.jpg)
 
 &nbsp;&nbsp;我有着例如18:16选好外卖，一定会**等**到18:18再下单的数字敏感型强迫症。类似22-2-22:22的时刻显然也**曾被我**赋予特殊意义。
 

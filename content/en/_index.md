@@ -1,5 +1,5 @@
 ---
-description: "Alex Liu's Blog"
+description: "A personal blog."
 ---
 
 ![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/sky-with-clouds.jpeg)

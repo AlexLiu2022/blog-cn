@@ -35,10 +35,10 @@ No matter how well packaged the modern financial system is, it cannot escape its
 
 Even U.S. Treasuries, which are generally considered the most reliable assets, may make us have to think a few more points after the farce of debt default risk:
 1. In American politics, where partisan interests already outweigh national interests, it is now possible to put U.S. debt on the brink of default for political blackmail, and it can be done at anytime. And often walking by the river, where are there not wet shoes?
-2. One of the main uses of U.S. Treasuries also includes interest payments on Treasuries. Borrowing new money to pay interest, the snowball gets bigger and bigger, and there will always be a day when the risk cannot be passed on to the future. (Is the US Treasury debt backed by aircraft carriers?  When everyone's force is bursting and they can lift the table, you may not want to play the game of cowards)
+2. One of the main uses of U.S. Treasuries is interest payments on Treasuries. Borrowing new money to pay interest, the snowball gets bigger and bigger, and there will always be a day when the risk cannot be passed on to the future. (Is its credibility supported by aircraft carriers?  When everyone's force is so high that they can flip the table, the cowards who play to the limit may end up dying together.)
 3. The long-term depreciation trend of credit currency will not change. To achieve "store of value" in this system, it takes "painstaking work"
 
-Not everyone wants to be a player in such a game. China can achieve "freedom to come and go", and the centralized finance of modern monopolies should also be allowed to exit. Decentralized finance gives us such a hedge, and this is the progress of the times.
+Not everyone wants to be a player in such a game. Even China claims to be able to "come and go freely"; the modern centralized monopoly finance should also allow players to exit. Decentralized finance gives us such a hedge, and this is the progress of the times.
 
 > And maybe, we can find a way to escape?
 

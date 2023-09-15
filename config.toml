@@ -1570,7 +1570,7 @@ uglyURLs = false
         pre = "internal"
         post = "home"
     [[languages.en.menu.links]]
-        url = "/tags/"
+        url = "/en/tags/"
         name = " Tags"
         weight = 2
         pre = "internal"

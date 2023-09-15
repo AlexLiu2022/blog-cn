@@ -8,7 +8,7 @@ All the articles in the "Self" (aka useless) section are written for my own read
 
 <img style = "margin-top : 20px; margin-bottom: 44px;" src = "https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/a-website-on-the-internet.jpg" />
 
-It was the idea that flashed through me while writing my last article that I started thinking about "about readers" ---and perhaps one of the reasons that prompted me to change it to be easier to understand. There are many things that I don't talk about with others, but I have a desire to express beyond "just talking to myself", and writing here can be considered as a compromise.
+It was while writing my last article that the idea flashed through me, and I started thinking about "about readers" --- and perhaps one of the reasons that prompted me to make it easier to understand. There are many things that I don't talk about with others, but I have a desire to express beyond "just talking to myself", and writing here can be considered as a compromise.
 
 Quite contradictory.
 
