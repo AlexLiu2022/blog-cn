@@ -21,7 +21,7 @@ However, as a man who won the title of "**Eating Good Baby**" back in the kinder
 - Self : 
 	- All kinds of fragments in mind
 	- Serious &nbsp;|| &nbsp;Pretentious articles
-	- Please read [About Readers](https://alex.liu.xyz/useless/about-readers/) first
+	- Please read [About Readers](https://eating.work/en/useless/about-readers/) first
 - Tags : 
 	- Tag cloud used to classification
 	- ( Actually it's for being cool ... 
