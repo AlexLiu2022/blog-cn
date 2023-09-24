@@ -1,5 +1,6 @@
 ---
-description: "A personal blog."
+description: "Alex Liu's blog."
+share: true
 ---
 
 ![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/sky-with-clouds.jpeg)
@@ -11,6 +12,12 @@ padding-bottom: 115px !important;
 }
 .post-body {
 margin-top: 0 !important;
+}
+.post-gitinfo {
+margin-top: 20px !important;
+}
+.post-share {
+margin-top: 20px !important;
 }
 </style>
 

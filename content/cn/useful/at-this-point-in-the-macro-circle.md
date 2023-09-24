@@ -1,6 +1,7 @@
 ---
 title: "周期的位置|金融"
 date: 2023-07-27T00:55:33+08:00
+share: true
 tags: ["金融","投资"]
 badge: true
 ---

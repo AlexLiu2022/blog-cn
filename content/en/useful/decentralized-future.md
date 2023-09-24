@@ -1,6 +1,7 @@
 ---
 title: "Decentralized Future"
 date: 2023-05-29T01:29:19+08:00
+share: true
 tags: ["web3",'blockchain',"decentralized"]
 ---
 

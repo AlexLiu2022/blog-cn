@@ -209,34 +209,16 @@ uglyURLs = false
         weight = 3
         pre = "internal"
         post = "grav"        
-   [[menu.main]]
-        url = "https://notes.liu.xyz"
-        name = "笔记"
-        weight = 4
-        pre = "external"
-        post = "pencil-alt"  
-    [[menu.main]]
-        url = "https://files.liu.xyz"
-        name = "网盘"
-        weight = 5
-        pre = "external"
-        post = "folder" 
-    [[menu.main]]
-        name = "GPT"
-        weight = 6
-        pre = "external"
-        url ="https://chat.liu.xyz"
-        post = "chat"
     [[menu.main]]
         pageref = "/tags/"
-        weight = 7
+        weight = 4
         pre = "internal"
         post = "tags"
     [[menu.main]]
-        weight = 8
+        weight = 5
         identifier = "lang-switcher"
     [[menu.main]]
-        weight = 9
+        weight = 6
         identifier = "theme-switcher"
 
     ## 社交栏
@@ -315,7 +297,7 @@ uglyURLs = false
     # 在窄视图下隐藏菜单栏并显示一个按钮？
     enableNavToggle = true
 
-    navHeight = "13.45em"
+    navHeight = "9em"
     # 说明：菜单栏展开时的高度
 
 
@@ -1178,11 +1160,11 @@ uglyURLs = false
 
     shareOnTwitter = true
     shareOnFacebook = true
-    shareOnLinkedIn = true
+    shareOnLinkedIn = false
     shareOnTelegram = true
     shareOnWeibo = true
-    shareOnDouban = true
-    shareOnQQ = true
+    shareOnDouban = false
+    shareOnQQ = false
     shareOnQzone = true
 
     shareViaQRCode = true
@@ -1502,7 +1484,7 @@ uglyURLs = false
         identifier = "about"
     [[languages.en.menu.main]]
         pageref = "/useful/"
-        name = "Public"
+        name = "Work"
         weight = 2
         pre = "internal"
         post = "wpexplorer"
@@ -1512,34 +1494,16 @@ uglyURLs = false
         weight = 3
         pre = "internal"
         post = "grav"        
-   [[languages.en.menu.main]]
-        url = "https://notes.liu.xyz"
-        name = "Notes"
-        weight = 4
-        pre = "external"
-        post = "pencil-alt"  
-    [[languages.en.menu.main]]
-        url = "https://files.liu.xyz"
-        name = "Files"
-        weight = 5
-        pre = "external"
-        post = "folder" 
-    [[languages.en.menu.main]]
-        name = "GPT"
-        weight = 6
-        pre = "external"
-        url ="https://chat.liu.xyz"
-        post = "chat"
     [[languages.en.menu.main]]
         pageref = "/tags/"
-        weight = 7
+        weight = 4
         pre = "internal"
         post = "tags"
     [[languages.en.menu.main]]
-        weight = 8
+        weight = 5
         identifier = "lang-switcher"
     [[languages.en.menu.main]]
-        weight = 9
+        weight = 6
         identifier = "theme-switcher"      
 
     ## 社交栏

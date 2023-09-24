@@ -1,6 +1,7 @@
 ---
 title: "搭建个人图床"
 date: 2022-08-08T21:00:00+08:00
+share: true
 tags: ["免费","工具","工作流","github","cdn","图床"]
 toc: true
 tocNum: false
