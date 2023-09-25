@@ -51,7 +51,7 @@ https://eating.work/atom.xml
 
 ![](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/cloud.jpg)
 [^1]: 网站名 & 域名[^5]的由来 足够无聊
-[^2]: 其实是用来装逼的（误
+[^2]: 其实是用来提供一个好看的页面
 [^3]: 笔记库、文件站、GPT镜像站等
 [^4]: 通过feedly等服务或reeder等客户端
 [^5]: 博客强调work是为了迎合域名后缀 而用这个后缀是因为便宜（迫真
