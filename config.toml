@@ -1116,9 +1116,9 @@ uglyURLs = false
     #      的优先级高于此处
 
     # 仓库地址
-    repoURL = "https://github.com/AlexLiu2022/blog"
+    repoURL = "https://github.com/AlexLiu2022/blog-cn"
     # 编辑地址
-    repoEditURL = "https://github.com/AlexLiu2022/blog/blob/main"
+    repoEditURL = "https://github.com/AlexLiu2022/blog-cn/blob/main"
 
     # Git 的图标
     gitIcon = "code-branch"
@@ -1135,14 +1135,14 @@ uglyURLs = false
     # 反馈链接的图标
     feedbackIcon = "question"
     # 反馈链接的文本
-    feedbackText = "Feedback"
+    feedbackText = "反馈问题"
 
     # 是否显示编辑链接
     displayEditLink = true
     # 编辑链接的图标
     editIcon = "edit"
     # 编辑链接的文本
-    editText = "Edit Me?"
+    editText = "编辑代码"
 
 
     ######################################
@@ -1574,6 +1574,9 @@ uglyURLs = false
         enableSmallCaps = true
         enableEmphasisPoint = false
         enableChinesePunctuationGlyphCorrection = true
+
+        feedbackText = "Feedback"
+        editText = "Edit me"
 
         enableAboutPageMinimalFooter = true
         customFooter = "Слава Украине! 🇺🇦"
