@@ -25,7 +25,7 @@ It's my world & has my work
 - 标签 ：标签云 用于分类 & 检索[^2]
 
 ##### 说明
- 本博客完全**开源**，文章在发布后可能会持续改动，可在<a href="https://github.com/AlexLiu2022/blog" target="_blank">GitHub</a>查看相关信息
+ 本博客完全**开源**，文章在发布后可能会持续改动，可在<a href="https://github.com/AlexLiu2022/blog-cn" target="_blank">GitHub</a>查看相关信息
 
 菜单栏由CN切换至EN可查看英文内容（内容存在差异 不同步更新）
 - 存在英文版的页面会跳转至英文版

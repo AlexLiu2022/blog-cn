@@ -28,7 +28,7 @@ However, as a man who won the title of "**Eating Good Baby**" back in the kinder
 
 ##### Some Tips
 
-This blog is completely open source and its contents are subject to change after publication, which are tracked on <a href="https://github.com/AlexLiu2022/blog" target="_blank">GitHub</a>.
+This blog is completely open source and its contents are subject to change after publication, which are tracked on <a href="https://github.com/AlexLiu2022/blog-cn" target="_blank">GitHub</a>.
 
 Switch from EN to CN in the menu bar to view Chinese contents (contents are different and not updated synchronously)
 
