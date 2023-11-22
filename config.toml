@@ -229,13 +229,13 @@ uglyURLs = false
         pre = "external"
         post = "envelope"
     [[menu.socials]]
-        url = "https://twitter.com/AlexLiuWeb3"
+        url = "https://twitter.com/liu_web3"
         name = " X"
         weight = 2
         pre = "external"
         post = "twitter"   
     [[menu.socials]]
-        url = "https://t.me/blueplane_alex"
+        url = "https://t.me/liu_web3"
         name = " telegram"
         weight = 3
         pre = "external"        
@@ -1514,13 +1514,13 @@ uglyURLs = false
         pre = "external"
         post = "envelope"
     [[languages.en.menu.socials]]
-        url = "https://twitter.com/AlexLiuWeb3"
+        url = "https://twitter.com/liu_web3"
         name = " X"
         weight = 2
         pre = "external"
         post = "twitter"   
     [[languages.en.menu.socials]]
-        url = "https://t.me/blueplane_alex"
+        url = "https://t.me/liu_web3"
         name = " telegram"
         weight = 3
         pre = "external"        
