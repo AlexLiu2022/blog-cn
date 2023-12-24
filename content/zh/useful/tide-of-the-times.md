@@ -7,12 +7,15 @@ tocNum: false
 share: true
 badge: true
 ---
+<center><strong><span style="font-size: 1.5em">
+内容待完善
+</span></strong></center>
 
-<center><strong><span style="font-size: 1.5em">！！内容待完善 ！！</span></strong></center>
+--- 
 
----
-
->![tide-of-the-world.JPG](https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/tide-of-the-world.JPG)孙中山在上海应黄文中所请为其作《日本民权发达史》一书题词
+<strong><span style="font-size: 1.2em">
+世界潮流浩浩汤汤，顺之则昌，逆之则亡。
+</strong></span>—— 孙中山
 
 ---
 
