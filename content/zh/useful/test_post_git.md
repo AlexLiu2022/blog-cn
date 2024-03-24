@@ -23,8 +23,6 @@ $ git config -l //查看当前配置
 
 使用` git init` 命令
 
----
-
 ### 添加文件到git仓库
 
 #### step1
@@ -41,8 +39,6 @@ $ git config -l //查看当前配置
 git add *
 ```
 
----
-
 ```shell
 git add .
 ```
@@ -55,8 +51,6 @@ git add -u .
 
 -u 表示将已跟踪文件中的修改和删除的文件添加到暂存区，不包括新增加的文件，注意这些被删除的文件被加入到暂存区再被提交并推送到服务器的版本库之后这个文件就会从git系统中消失了。
 
----
-
 ```shell
 git add -A .
 ```
@@ -68,8 +62,6 @@ git add -A .
 ```shell
 git add *.html
 ```
-
----
 
 **3、添加整个文件夹**到暂存区，比如根目录的 index 文件夹。
 
@@ -87,11 +79,8 @@ git add index/index.html
 
 使用命令`git commit -m <message>`，完成
 
----
-
 ## 仓库版本管理
 
----
 
 ### 掌握仓库当前的状态
 
@@ -107,11 +96,7 @@ git add index/index.html
 
 可以使用--pretty=oneline参数 如` git log --pretty=oneline `减少输出的信息
 
----
-
 ### 版本回退
-
----
 
 #### 把文件回退到之前的版本
 
@@ -127,11 +112,7 @@ $ git reset --commit id (few numbers are ok)
 
   <mark>可以通过查看命令历史的命令`git reflog` 来查看之前版本的版本号</mark>
 
----
-
 ### 撤销对文件的修改
-
----
 
 #### 工作区的撤销
 
@@ -145,17 +126,12 @@ $ git reset --commit id (few numbers are ok)
 
 <mark>总之，就是让文件回到最近一次`git commit`或`git add`时的状态。</mark>
 
----
-
 #### 暂存区的撤销
 
 用命令`git reset HEAD <file>`可以把暂存区的修改撤销掉（unstage），重新放回工作区
 
----
-
 ### 从版本库中删除文件
 
----
 
 #### 删除
 
@@ -169,8 +145,6 @@ $ git commit -m "remove test.txt"
 
  <mark>提示：先手动删除文件，然后使用`git rm  \<file\`和`git add\<file\>`效果是一样的。</mark>
 
----
-
 #### 恢复
 
 如果删错了，因为版本库里有，所以可以把误删的文件恢复到最新版本：
@@ -183,15 +157,9 @@ $ git checkout -- test.txt
 
  <mark>注意：从来没有被添加到版本库就被删除的文件，是无法恢复的！</mark> 
 
----
-
 ## 远程仓库
 
----
-
 ### 添加远程库
-
----
 
 #### step1
 
@@ -209,8 +177,6 @@ $ git remote add origin git@github.com:username/repo.git
 $ git push -u origin main
 ```
 
----
-
 `git push`命令，实际上是把当前分支`master`推送到远程。
 
 由于远程库是空的，第一次推送`master`分支时，加上了`-u`参数，Git不但会把本地的`master`分支内容推送到远程新的`master`分支，还会把本地的`master`分支和远程的`master`分支关联起来，在以后的推送或者拉取时就可以简化命令。
@@ -223,20 +189,13 @@ $ git push origin master
 
 把本地`master`分支的最新修改推送至GitHub
 
-
----
-
 ### 修改远程库
 
 ```shell
 git remote set-url origin <url>
 ```
 
----
-
 ### 删除远程库
-
----
 
 如果添加的时候地址写错了，或者就是想删除远程库，可以用`git remote rm <name>`命令。<mark>使用命令`git remote -v`可以查看远程库信息</mark>
 
@@ -248,11 +207,7 @@ $ git remote rm origin
 
 此处的“删除”其实是解除了本地和远程的绑定关系，并不是物理上删除了远程库。远程库本身并没有任何改动。要真正删除远程库，需要登录到GitHub，在后台页面找到删除按钮再删除。
 
----
-
 ### 从远程库克隆
-
----
 
 上面是先有本地库，后有远程库时，关联远程库的方法。
 
